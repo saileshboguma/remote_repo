@@ -19,5 +19,5 @@ from testapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('date/', views.datetimeinfo)
+    path('datetime/', views.datetimeinfo)
 ]

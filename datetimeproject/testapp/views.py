@@ -5,7 +5,7 @@ import datetime
 def datetimeinfo(request):
     date=datetime.datetime.now()
     h=int(date.strftime("%H"))
-    msg='<h1>Hello Guest very '
+    msg='<h1>Hello Guest Welcome to server deployment'
     if h<12:
         msg=msg+'Good Morning'
     elif h<16:
